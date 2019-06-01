@@ -2,6 +2,16 @@
 # yarn lockfile v1
 
 
+"@zeit/integration-utils@0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@zeit/integration-utils/-/integration-utils-0.6.1.tgz#bddb2104c525060a1904186c0b3729bc046a2aad"
+  integrity sha512-sj+FkSoq5n2Mx6SlNQAbYKbp0IMCMYu0m+q73qy3882FlQp6WOvQgrLNhux+/oGkClvECtVS5Jes1tdV7p1rzw==
+  dependencies:
+    htm "2.1.1"
+    micro "9.3.4"
+    node-fetch "2.5.0"
+    uid-promise "1.1.0"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -772,6 +782,11 @@ has-values@^1.0.0:
     is-number "^3.0.0"
     kind-of "^4.0.0"
 
+htm@2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/htm/-/htm-2.1.1.tgz#5a53e5f2845c3181b1672f95c9bffaf3d621bb0e"
+  integrity sha512-jgvB9nvlOE5xpI1W+juW8DPCe+Pn7mRDNaE4EOQNFqROm0O3l5deOvefK8C8hUaL1OHIX45mDEBSj7BMt+22VQ==
+
 htmlparser2@^3.3.0:
   version "3.10.1"
   resolved "https://registry.yarnpkg.com/htmlparser2/-/htmlparser2-3.10.1.tgz#bd679dc3f59897b6a34bb10749c855bb53a9392f"
@@ -1235,6 +1250,11 @@ needle@^2.2.1:
     debug "^3.2.6"
     iconv-lite "^0.4.4"
     sax "^1.2.4"
+
+node-fetch@2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.5.0.tgz#8028c49fc1191bba56a07adc6e2a954644a48501"
+  integrity sha512-YuZKluhWGJwCcUu4RlZstdAxr8bFfOVHakc1mplwHkk8J+tqM1Y5yraYvIUpeX8aY7+crCwiELJq7Vl0o0LWXw==
 
 node-pre-gyp@^0.11.0:
   version "0.11.0"
@@ -1892,6 +1912,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+uid-promise@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/uid-promise/-/uid-promise-1.1.0.tgz#af6dee53e887834e9b0da3f705bc9d7b0d002b7c"
+  integrity sha512-8xlDRzI5YFQhoCaGvA/zZTZffX+7J916fVAnIBCVIcHlsHeXiDyrO8Kutb8zn5Azm3143hKlvmnf6eLEl9+hJQ==
 
 union-value@^1.0.0:
   version "1.0.0"
