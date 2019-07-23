@@ -6,6 +6,6 @@
   "private": true,
   "dependencies": {
     "chrome-aws-lambda": "1.17.1",
-    "puppeteer-core": "1.17.0"
+    "puppeteer-core": "1.19.0"
   }
 }
